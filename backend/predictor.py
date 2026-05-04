@@ -33,7 +33,7 @@ def predict_heart_disease(input_features):
     logging.info(f"\nModel Prediction :{prediction}\nHeart disease risk probability: {probability:.2%}")
     return {
         "prediction":prediction,
-        "probability":f"{probability:.2%}"
+        "probability":probability
     }
 
 #example usage

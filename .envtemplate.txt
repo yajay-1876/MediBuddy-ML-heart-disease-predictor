@@ -1,0 +1,15 @@
+PROJECT_FOLDER=path\to\your\current\working\directory
+
+DATASET_DIR=dataset
+DATASET_FILE=heart.csv
+
+LOG_DIR=log_dir
+LOG_FILE=api.log
+MODEL_DIR=model_dir
+MODEL_NAME=rfc_bestmodel.joblib
+
+TARGET_COL=target
+RANDOM_STATE=44
+TEST_SIZE=0.15
+
+API_URL=http://127.0.0.1:8000/predict-heart-disease
